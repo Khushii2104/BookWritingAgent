@@ -58,7 +58,7 @@ Setup file fields: `book_type` (`fiction` | `memoir` | `non-fiction`), `idea`, `
 ## Simple web UI
 Prefer clicking to typing commands? Start the local UI (no extra packages needed; it reads your key from .env by itself):
 ```bash
-python ui.py
+python ui.py #run
 ```
 It opens http://127.0.0.1:8765 in your browser. Fill in the book setup (or click "Fill with example"), press Start, and the page shows live progress. When the plan or a chapter is ready, you get the text with **Approve / Revise with feedback / Stop** buttons. When it finishes you can read and download `manuscript.md`. Tick "Demo mode" to try it without an API key. The UI only listens on your own computer (127.0.0.1).
 
